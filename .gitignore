@@ -1,0 +1,6 @@
+.vscode
+*TODO
+*log*.txt
+node_modules
+package-lock.json
+.env
