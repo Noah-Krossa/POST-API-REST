@@ -19,7 +19,7 @@ App.use(Express.json())
 App.use(Logger('dev'))
 
 /** Routing */
-// App.use('/api', require('./routes/v1'))
+App.use('/api', require('./routes.v1'))
 
 /** APP SETTINGS */
 App.use(Express.static(join(__dirname, 'public')))
