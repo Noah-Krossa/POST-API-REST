@@ -5,6 +5,7 @@ const MONGODB_LOCAL_URI = 'mongodb://localhost:27017/dev_db'
 /** MONGODB SETTINGS */
 set('useNewUrlParser', true)
 set('useUnifiedTopology', true)
+set('useCreateIndex', true)
 
 /**
  * Connect to mongodb database, this func return false if
